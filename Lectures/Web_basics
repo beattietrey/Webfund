@@ -1,0 +1,33 @@
+Web Basics
+
+URL - Uniform Resource Locator
+    This is a reference to a resource on the Web
+    When we enter a URL, the corresponding resource is located
+    3 part: HTTP protocol (http://) and resource / host name (facebook) and top domain (.com)
+    IP Addess is found
+        4 period separated numbers assigned to each computer
+        Computers on the same network have the address
+
+Request/Response Style
+
+Web Browser->Internet->Web Server
+    -> Http Request
+Web Browser<-Internet<-Web Server
+                <- HTTP Response
+
+Client -> DNS (Domain Name Server) -> Server -> Client
+
+
+localhost
+    Web Server on your own computer
+    Making requests to yourself
+    IP address is always 127.0.0.1
+
+HTML was created to share documents, like scientific papers (which is why sometimes the code doesn't sem to want to work for advanced stuff)
+    they are used to tell the browser what type of content we want to display
+    HTML tags describe the content that is placed inside
+        headings and paragraphs of text
+        images
+        links
+        lists
+        tables
