@@ -158,8 +158,17 @@ function addTwoNums(num1, num2) {
    * Determines the total of the lengths of the words in the given array.
    * @return {number} The total length of all the words.
    */
-  function totalWordsLength() {}
+
+
+    function totalWordsLength(arr) {
+      var sum = 0;
+      for(var i = 0;i < arr.length;i++) {
+        sum+=arr[i].length
+      }
+      return sum
+}
   
+console.log(totalWordsLength("array","17","blueberry"))
   /**
    * Determines the average length of the words in the given array.
    * @return {number} The average length of the given words.
