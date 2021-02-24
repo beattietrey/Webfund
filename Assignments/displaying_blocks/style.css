@@ -5,9 +5,38 @@
 }
 
 .container {
+    margin-top: 10px;
     background-color: #d4d2ae;
+    width: 700px;
+    padding: 20px;
 }
 
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.white-background {
+    background-color: white;
+}
 .images {
-    width: 100px;
+    height: 100%;
+    width: 107px;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+.red {
+    background-color: indianred;
+    border: 4px solid black;
+    min-height:100px;
+    padding: 10px;
 }
