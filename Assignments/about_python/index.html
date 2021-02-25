@@ -9,44 +9,85 @@
 
 </head>
 <body>
-    <header>
-        <img class="logo" src="./images/python.png" alt="python logo">
-        <div class="search">
-            <p class="white-text">Text Size: <button type="">Normal</button> <span>|</span> <button>Large</button></p>
-            <div class="searchbar">
-                <input type="search" name="searchbar" value="Search" class="search border-gray">
-                <button type="submit" class="border-gray">Go</button>
-            </div>    
+    <div id="container">
+        <header>
+            <img class="logo" src="./images/python.png" alt="python logo">
+            <div class="search">
+                <p class="white-text align-right-hard-way">Text Size: <button type="" class="size-button-color">Normal</button> <span class="black-bar">|</span> <button class="size-button-color">Large</button></p>
+                <div class="searchbar">
+                    <input type="search" name="searchbar" value="Search" class="search border-gray searchbar-input">
+                    <button type="submit" class="go-button">Go</button>
+                </div>    
+            </div>
+        </header>
+
+        <div id="navbar">
+            <a href="#">About</a>
+            <a href="#">Downloads</a>
+            <a href="#">Documentation</a>
+            <a href="#">Community</a>
+            <a href="#">News</a>
+            <a href="#">Events</a>
         </div>
-    </header>
 
-    <div id="navbar">
-        <a href="#">About</a>
-        <a href="#">Downloads</a>
-        <a href="#">Documentation</a>
-        <a href="#">Community</a>
-        <a href="#">News</a>
-        <a href="#">Events</a>
-
-
+        <main class="flex-box">
+            <div>
+                <ul class="nav-links no-bullets">
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Audio/Visual Talks</a></li>
+                    <li><a href="#">Beginner's Guide</a></li>
+                    <li><a href="#">Developer's Guide</a></li>
+                    <li><a href="#">PEP Index</a></li>
+                    <li><a href="#">Python Books</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="python-info center-text">
+                <p class="white-text">First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whose design focus emphasizes code readability. Whether for processing/analyzing data to powering many well-known applications, Python is not only a great languafe for new programmers, but also powerful enough for seasoned developers building whatever they can think of.</p>
+                <h3>Beautiful is better than ugly;</h3>
+                <h3>Explicit is better than implicit;</h3>
+                <h3>Simple is better than complex;</h3>
+                <h3>Complex is better than complicated;</h3>
+                <h3>Readability counts;</h3>
+                <h4 class="white-text sm-top-marg">The Zen of Python</h4>
+            </div>
+        </main>
     </div>
-
-    <main>
-
-
-
-    </main>
-
+    
     <div id="helpful-links">
+        <div class="get-start-card center-text">
+            <h4>Getting Started</h4>
+            <p>Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages. The following pages are a useful first step to get on your way writing programs with Python!</p>
+            <ul class="extra-margin-left">
+                <li><a href="#">Beginner's Guide, Programmers</a></li>
+                <li><a href="#">Beginner's Guide, Non-Programmers</a></li>
+                <li><a href="#">Code sample and snippets for Beginners</a></li>
+            </ul>
 
+        </div>
+        <div class="get-start-card center-text">
+            <h4>Applications</h4>
+            <p>The <a href="#">Python Package Index (PyPI)</a> hosts thousands of third-party modules for Python. Both Python's standard library and the community-contributed modules allow for endless possibilities.</p>
+            
+            <ul class="extra-margin-left">
+                <li><a href="#">Web and Internet Development</a></li>
+                <li><a href="#">Database Access</a></li>
+                <li><a href="#">Desktop GUIs</a></li>
+                <li><a href="#">Network Programming</a></li>
+                <li><a href="#">Software and Game Development</a></li>
+            </ul>
+        </div>
 
 
     </div>
 
     <footer>
-
-
-
+        <div class="flex-box align-bottom">
+            <h4 class="footer-links"><a href="#">Help and General Contact</a></h4>
+            <h4 class="footer-links"><a href="#">Diversity Initiatives</a></h4>
+            <h4 class="footer-links"><a href="#">Submit Website Bugs</a></h4>
+        </div>
+        <h6 class="copyright-color">Copyright &#169;2001-2016</h6>
     </footer>
 </body>
 </html>

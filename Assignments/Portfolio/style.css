@@ -71,8 +71,8 @@ body {
         background-image: linear-gradient(#b2b1b5, #878693 ,#b2b1b5);
         padding: 10px;
         color:azure;
-        font-size: large;
-        font-weight: bold;
+        /* font-size: large;
+        font-weight: bold; */
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
