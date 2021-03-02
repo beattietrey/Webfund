@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 1px solid red;
+}
+
+#container {
+    width: 970px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.header-globe-image {
+    width: 60px;
+}
