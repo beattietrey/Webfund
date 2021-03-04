@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+    ></script>
+    <script>
+        $(document).ready( function() {
+
+            $(".container img").addClass("img-thumbnail w-20 p-3 m-3")
+            $(".container img").click( function() {
+                $(this).hide()
+            })
+            $("button").click( function() {
+                $(".container img").show()
+            })
+        })
+    </script>
+</head>
+<body class="text-center">
+    <div class="container">
+        <h1>Can you catch the dogs?</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+    </div>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYe68oMpXHY-sdiywgiQMNnJ9COJ0R8fXPf-ZCHE3FxB3rCufJ-Jwt65tFQgs&usqp=CAc" alt="">
+    </div>        
+    <button class="mx-auto">Restore</button>
+
+
+</body>
+</html>
